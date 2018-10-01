@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Travel from "./Travel";
+import Travels from "./Travels";
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
           country="Japon"
           distance="10 084 km"
         />
+        < Travels />
       </div>
     );
   }
